@@ -45,10 +45,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TILDE  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH   &kp DOLLAR     &kp PERCENT          &kp CARET  &kp AMPERSAND   &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BSPC
-&kp LCTRL  &trans           &trans       &kp GRAVE  &kp SEMICOLON  &kp LG(LS(LCTRL))    &kp PIPE   &kp UNDERSCORE  &kp PLUS      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp ENTER
-&kp LSHFT  &trans           &trans       &trans     &trans         &bootloader          &trans     &trans          &trans        &trans                &trans                 &kp RIGHT_SHIFT
-                                         &kp LGUI   &trans         &kp LEFT_ALT         &kp SPACE  &trans          &kp RALT
+&trans     &trans             &trans     &kp GRAVE  &kp SEMI           &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &kp N7  &kp N8    &kp N9  &kp N0         &kp BSPC
+&kp LCTRL  &kp LS(LG(LCTRL))  &kp MINUS  &kp EQUAL  &kp DOUBLE_QUOTES  &kp LEFT_BRACE      &kp RIGHT_BRACE    &kp N4  &kp N5    &kp N6  &trans         &kp ENTER
+&kp LSHFT  &trans             &trans     &trans     &trans             &bootloader         &trans             &kp N1  &kp N2    &kp N3  &kp BACKSLASH  &kp RIGHT_SHIFT
+                                         &kp LGUI   &trans             &kp LEFT_ALT        &kp SPACE          &trans  &kp RALT
             >;
         };
 
@@ -62,10 +62,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB    &kp N1  &kp N2  &kp N3    &kp N4  &kp N5      &kp N6       &kp N7     &kp N8           &kp N9            &kp N0             &kp RC(BSPC)
-&kp LCTRL  &trans  &trans  &trans    &trans  &trans      &trans       &kp MINUS  &kp EQUAL        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SINGLE_QUOTE
-&kp LSHFT  &trans  &trans  &trans    &trans  &trans      &bootloader  &trans     &trans           &trans            &kp BACKSLASH      &kp RIGHT_SHIFT
-                           &kp LGUI  &trans  &kp RALT    &kp SPACE    &trans     &kt RIGHT_SHIFT
+&kp TAB    &trans  &trans  &trans    &trans  &trans      &trans       &trans  &trans           &trans  &trans  &kp RC(BSPC)
+&kp LCTRL  &trans  &trans  &trans    &trans  &trans      &trans       &trans  &trans           &trans  &trans  &kp SINGLE_QUOTE
+&kp LSHFT  &trans  &trans  &trans    &trans  &trans      &bootloader  &trans  &trans           &trans  &trans  &kp RIGHT_SHIFT
+                           &kp LGUI  &trans  &kp RALT    &kp SPACE    &trans  &kt RIGHT_SHIFT
             >;
         };
 
